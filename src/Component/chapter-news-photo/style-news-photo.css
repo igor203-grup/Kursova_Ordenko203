@@ -1,0 +1,51 @@
+.news-photo {
+  width: 100vw;
+  height: 230vw;
+}
+
+.news-brig {
+  width: 100vw;
+  height: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-brig p {
+  font-size: 3vw;
+}
+
+
+
+.news-content-image {
+  width: 100vw;
+  height: 30vw;
+  margin-top: 3vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text-content-news {
+  padding: 4vw;
+  width: 50vw;
+  height: 28vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-content-news p {
+  font-size: 1.6vw;
+}
+
+.text-content-news a {
+  font-size: 1.4vw;
+  text-decoration: none;
+}
+
+.photo-content-news img {
+  width: 45vw;
+  height: 28vw;
+  border-radius: 10px;
+}

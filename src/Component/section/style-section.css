@@ -1,0 +1,88 @@
+.fight-with-us {
+  width: 100vw;
+  height: 49vw;
+  background-position: end;
+  background-color: blue;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+
+}
+
+.fight-with-us {
+  position: relative;
+}
+
+.nametitle h1 {
+  color: rgb(27, 24, 24);
+  font-size: 7vw;
+  margin: 0;
+  padding: 0;
+  animation: 2s ease-out 0s slideInFromBottom;
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: scrollRightToLeft 0.6s linear, blink 1s 1s infinite;
+  font-family: fantasy;
+}
+
+
+
+@keyframes scrollRightToLeft {
+  0% {
+    transform: translateX(100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+
+@keyframes blink {
+  0% {
+    color: tomato;
+  }
+
+  50% {
+    color: rgb(255, 64, 31);
+    font-size: 7.1vw;
+  }
+
+  100% {
+    color: tomato;
+  }
+}
+
+
+
+.scroll-btm-section {
+  width: 2.083vw;
+  height: 2.083vw;
+  border-radius: 10px 10%;
+  border-left: 5px solid rgb(255, 255, 255);
+  border-bottom: 5px solid white;
+  margin-top: 13vw;
+  margin-bottom: 4vw;
+  transform: rotateZ(-45deg);
+  cursor: pointer;
+  transition: all 0.2s ease;
+
+}
+
+
+.scroll-btm-section:hover {
+  transform: rotateZ(-45deg) scale(1.2);
+  border-color: rgb(185, 184, 184);
+}
+
+
+.scrol-about {
+  padding: 1vw 1.5vw;
+}
+
+#about-id {
+  transition: all 3s ease-in;
+}

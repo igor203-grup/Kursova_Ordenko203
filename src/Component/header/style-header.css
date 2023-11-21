@@ -1,0 +1,119 @@
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(0, 139, 139, 0.1);
+  width: 100vw;
+  height: 8vw;
+  align-items: center;
+  position: fixed;
+  z-index: 101;
+}
+
+.left-header img {
+  width: 6vw;
+  border-radius: 50px;
+  box-shadow: 0 0 10px 3px black;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.left-header img:hover {
+  transform: scale(1.1);
+  box-shadow: 1px 1px 10px 1px red;
+}
+
+.right-header>.menu-header {
+  display: flex;
+  gap: 1.38vw;
+}
+
+.right-header>.menu-header>.list-header {
+  padding: 0.694vw 1.388vw;
+  background-color: rgb(204, 190, 0);
+  box-shadow: 1px 1px 10px 1px black;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 10px;
+  position: relative;
+  transform: skew(-10deg);
+  transition: .3s ease;
+
+}
+
+.right-header>.menu-header>.list-header:hover {
+  background-color: rgb(228, 213, 0);
+  transition: .3s ease-out;
+  transform: translateY(5px) skew(10deg);
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 0px;
+  border-top-left-radius: 0px;
+  box-shadow: 1px 1px 30px 3px blue;
+}
+
+.list-header:hover li {
+  transform: skew(-10deg);
+}
+
+.list-header li {
+  transform: skew(10deg);
+
+}
+
+
+
+.list-header>li>a {
+  color: black;
+  font-size: 0.833vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+
+
+
+.right-header>ul {
+  list-style-type: none;
+}
+
+.join-header {
+  display: flex;
+  align-items: center;
+}
+
+.right-header a,
+.join-header a {
+  text-decoration: none;
+}
+
+.join-header>.apply-header a {
+  color: wheat;
+}
+
+.join-header>.apply-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13.888vw;
+  height: 3.9027vw;
+  transform: skew(-25deg);
+  background-color: rgb(255, 51, 0);
+  box-shadow: 1px 1px 10px 1px black;
+  border-bottom-right-radius: 3vh;
+  border-top-left-radius: 3vh;
+  transition: .2s ease-in-out;
+}
+
+.join-header>.apply-header:hover {
+  background-color: rgb(255, 73, 1);
+  transform: scale(1.05) skew(-25deg);
+  box-shadow: 1px 1px 10px 3px;
+
+}
+
+
+.join-header>.apply-header a {
+  transform: skew(25deg);
+  font-size: 1.1805vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
