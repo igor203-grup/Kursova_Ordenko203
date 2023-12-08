@@ -96,7 +96,7 @@
   width: 13.888vw;
   height: 3.9027vw;
   transform: skew(-25deg);
-  background-color: rgb(255, 51, 0);
+  background-color: rgb(225, 255, 0);
   box-shadow: 1px 1px 10px 1px black;
   border-bottom-right-radius: 3vh;
   border-top-left-radius: 3vh;
@@ -104,7 +104,7 @@
 }
 
 .join-header>.apply-header:hover {
-  background-color: rgb(255, 73, 1);
+  background-color: rgb(29, 12, 141);
   transform: scale(1.05) skew(-25deg);
   box-shadow: 1px 1px 10px 3px;
 
